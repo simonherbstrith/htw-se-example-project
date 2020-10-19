@@ -3,8 +3,8 @@ Simon Herbstrith <simon.herbstrith@htw-dresden.de>
 1.0, 12.10.2020
 :toc: 
 :toc-title: Inhaltsverzeichnis
-// Platzhalter für weitere Dokumenten-Attribute 
 :source-highlighter: highlightjs
+:imagesdir: images
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -71,4 +71,10 @@ int main(int argc, char* argv[])
 
 === Bilder
 
-.screenshot.png
+Screenshot
+
+image:C:\Users\simon\Google Drive\Software Engineering I925\Praktikum\1\htw-se-example-project\images\Screenshot.PNG[Screenshot,700]
+
+
+=== Verweise
+
