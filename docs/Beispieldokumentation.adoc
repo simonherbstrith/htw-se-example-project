@@ -4,6 +4,7 @@ Simon Herbstrith <simon.herbstrith@htw-dresden.de>
 :toc: 
 :toc-title: Inhaltsverzeichnis
 // Platzhalter für weitere Dokumenten-Attribute 
+:source-highlighter: highlightjs
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -27,3 +28,43 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .. Item B1 
 .. Item B2
 . Item C
+
+=== Tabellen und Textformatierung
+
+|===
+|Formatierung |Syntax |Beschreibung
+
+|*bold*
+|\*bold*
+|fetter Text
+
+
+|__italic__
+|_italic_
+|kursiver Text
+
+|monospace
+|\`monospace`
+|Text mit fester Laufweite
+
+|*bold&italic*
+|+*_bold&italic_*+
+|Text mit kombinierter Formatierung
+
+|*bold*&_italic_
+|+**bold**&__italic__+
+|Text mit Formatierung innerhalb eines Wortes
+|===
+
+**S**oftware _Enginee``ring``_
+
+=== Quellcode
+
+hello_world.c
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World\n");
+    return 0;
+}
