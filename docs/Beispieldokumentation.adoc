@@ -82,9 +82,9 @@ int main(int argc, char* argv[])
 
 Screenshot
 
-image:C:\Users\simon\Google Drive\Software Engineering I925\Praktikum\1\htw-se-example-project\images\Screenshot.PNG[]
+image::Screenshot.PNG[]
 
-
+    
 === Verweise
 
 
